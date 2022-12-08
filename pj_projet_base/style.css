@@ -45,7 +45,8 @@ body{
     background-color: gold;
 }
 .colonne_contenu {
-    background-color: lightgreen;
+    background-color: burlywood;
+    margin: 10px;
 }
 .pieddepage{
     background-color: lightgray;
@@ -64,8 +65,45 @@ body{
     background-color: brown;
     color: chocolate;
     text-align: center;
+    line-height: 50px;
 }
-
-
-
-
+h1
+{
+    background-color: brown;
+    font-size: 40px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid coral;
+}
+h2
+{
+    color: burlywood;
+    font-size: 30px;
+    margin: 20px;
+    font-variant: small-caps;
+}
+strong
+{
+    color: purple;
+    font-weight: unset;
+}
+em
+{
+    color: blueviolet;
+}
+.introduction
+{
+    font-style: italic;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+a
+{
+    font-weight: 700;
+}
+a:hover
+{
+    color: green;
+    text-decoration: none;
+}
