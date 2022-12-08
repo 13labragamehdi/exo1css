@@ -35,7 +35,8 @@ body{
 }
 
 .entete{
-    background-color: hotpink;
+    background-color: darkgoldenrod;
+    padding: 10px;
 }
 .colonnes {
     background-color: deepskyblue;
@@ -48,6 +49,15 @@ body{
 }
 .pieddepage{
     background-color: lightgray;
+}
+.title, .slogan
+{
+    font-size: 0.8rem;
+    color: orangered;
+}
+.slogan
+{
+    font-style: italic;
 }
 
 
